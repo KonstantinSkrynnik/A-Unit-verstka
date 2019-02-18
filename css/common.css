@@ -1,0 +1,258 @@
+@font-face {
+  font-family: 'PT Sans';
+  src: url(../fonts/pt-sans.ttf); }
+body {
+  width: 100%;
+  height: auto;
+  padding: 0;
+  margin: 0;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-focus-ring-color: rgba(0, 0, 0, 0);
+  font-family: 'PT Sans';
+  background-color: #FDFDFD; }
+
+input, button {
+  -webkit-appearance: none; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0; }
+
+.row, p, ul, li {
+  margin: 0;
+  padding: 0; }
+
+img {
+  max-width: 100%; }
+
+.slick-slide:focus {
+  outline: none; }
+
+button::-moz-focus-inner, input[type="reset"]::-moz-focus-inner, input[type="button"]::-moz-focus-inner,
+input[type="submit"]::-moz-focus-inner, input[type="submit"]::-moz-focus-inner,
+input[type="file"] > input[type="button"]::-moz-focus-inner {
+  border: none; }
+
+a, a:hover, a:active, a:visited, a:focus {
+  outline: none;
+  text-decoration: none;
+  color: #fff; }
+
+input:hover, input:focus, input:active, textarea:focus {
+  outline: none; }
+
+:focus::-webkit-input-placeholder {
+  color: transparent; }
+
+:focus::-moz-placeholder {
+  color: transparent; }
+
+:focus:-moz-placeholder {
+  color: transparent; }
+
+:focus:-ms-input-placeholder {
+  color: transparent; }
+
+button:focus {
+  outline: none;
+  border: none; }
+
+header {
+  width: 100%;
+  height: 70px;
+  background-color: #0095FF; }
+  header .header-content {
+    width: 1000px;
+    height: 70px;
+    margin: 0 auto;
+    padding: 8px 0; }
+    header .header-content ul {
+      display: flex;
+      align-items: center; }
+      header .header-content ul li {
+        display: inline-block;
+        list-style: none;
+        color: #fff;
+        font-size: 18px;
+        margin: 0 15px; }
+
+.wrapper-admin {
+  width: 100%;
+  height: 100vh;
+  background-color: #fff;
+  position: relative;
+  font-family: 'PT Sans'; }
+  .wrapper-admin-content {
+    width: 371px;
+    height: 371px;
+    background-color: #0095FF;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -185.5px;
+    margin-left: -185.5px; }
+    .wrapper-admin-content a {
+      display: block;
+      width: 70%;
+      height: 28px;
+      background-color: #fff;
+      border: #fff;
+      border-radius: 8px;
+      color: #0095FF;
+      margin: 38px auto;
+      padding-top: 10px;
+      text-align: center;
+      font-size: 13px;
+      cursor: pointer; }
+    .wrapper-admin-content svg {
+      display: block;
+      margin: 20px auto; }
+    .wrapper-admin-content p {
+      color: #fff;
+      display: block;
+      font-size: 17px;
+      margin: 20px 55px 0 55px; }
+    .wrapper-admin-content input {
+      margin: 5px auto;
+      width: 65%;
+      height: 38px;
+      border: #fff;
+      border-radius: 8px;
+      display: block;
+      padding: 0 10px;
+      font-size: 17px; }
+
+input {
+  width: 250px;
+  height: 38px;
+  border: 1px solid #0095FF;
+  border-radius: 8px;
+  padding: 0 10px;
+  font-size: 15px;
+  outline: none; }
+
+select {
+  width: 270px;
+  height: 38px;
+  border: 1px solid #0095FF;
+  border-radius: 8px;
+  padding: 0 10px;
+  outline: none; }
+
+.wrapper-main-content {
+  width: 1000px;
+  height: auto;
+  margin: 50px auto; }
+  .wrapper-main-content .wrapper-new-game {
+    display: flex; }
+    .wrapper-main-content .wrapper-new-game .new-game {
+      width: 35%;
+      height: auto; }
+    .wrapper-main-content .wrapper-new-game .description {
+      width: 70%;
+      height: auto;
+      display: inline-block;
+      margin-left: 50px; }
+      .wrapper-main-content .wrapper-new-game .description .line {
+        display: flex;
+        margin: 10px 0; }
+        .wrapper-main-content .wrapper-new-game .description .line p {
+          display: block;
+          width: 180px; }
+        .wrapper-main-content .wrapper-new-game .description .line input {
+          width: 50px;
+          margin: 10px 0 0 10px; }
+  .wrapper-main-content p {
+    color: #000;
+    display: block;
+    font-size: 15px;
+    margin: 5px 0; }
+  .wrapper-main-content button {
+    display: block;
+    width: 70%;
+    height: 38px;
+    background-color: #fff;
+    border: #fff;
+    border-radius: 8px;
+    color: #0095FF;
+    margin: 33px auto; }
+
+.create {
+  display: block;
+  width: 250px;
+  height: 30px;
+  background-color: #0095FF;
+  border: #0095FF;
+  border-radius: 8px;
+  color: #fff;
+  margin: 33px auto 80px auto;
+  text-align: center;
+  padding-top: 6px; }
+
+.wrapper {
+  width: 100%;
+  height: auto; }
+  .wrapper h1 {
+    width: 970px;
+    margin: 50px auto 0 auto; }
+  .wrapper-main-content {
+    width: 1000px;
+    height: auto;
+    margin: 30px auto;
+    display: flex;
+    flex-flow: wrap; }
+    .wrapper-main-content .game {
+      width: 42%;
+      height: 100px;
+      border: 1px solid #0095FF;
+      padding: 10px 20px;
+      position: relative;
+      margin: 15px auto; }
+      .wrapper-main-content .game p {
+        font-weight: 600; }
+        .wrapper-main-content .game p span {
+          color: #C4C4C4;
+          font-weight: normal;
+          font-family: "PT Sans italic"; }
+      .wrapper-main-content .game .time {
+        position: absolute;
+        top: 20px;
+        right: 30px;
+        font-weight: normal; }
+      .wrapper-main-content .game a {
+        display: block;
+        width: 45%;
+        height: 25px;
+        background-color: #DCDCDC;
+        border: #DCDCDC;
+        border-radius: 8px;
+        color: #fff;
+        margin: 15px auto;
+        padding-top: 8px;
+        text-align: center;
+        font-size: 13px; }
+
+footer {
+  width: 100%;
+  height: 70px;
+  background-color: #0095FF;
+  position: relative;
+  bottom: 0;
+  left: 0; }
+  footer .footer-content {
+    width: 1000px;
+    height: 50px;
+    margin: 0 auto;
+    padding-top: 8px; }
+    footer .footer-content p {
+      margin: 15px 0;
+      text-align: center;
+      color: #fff; }
+
+/*# sourceMappingURL=common.css.map */
